@@ -94,6 +94,7 @@ CrudModule.directive('maViewBatchActions', require('./button/maViewBatchActions'
 CrudModule.directive('maShowItem', require('./show/maShowItem'));
 CrudModule.directive('maViewActions', require('./misc/ViewActions'));
 CrudModule.directive('compile', require('./misc/Compile'));
+CrudModule.directive('maHelpText', require('./misc/maHelpText'));
 
 CrudModule.config(require('./routing'));
 CrudModule.config(require('./config/factories'));
