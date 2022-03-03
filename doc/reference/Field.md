@@ -179,6 +179,24 @@ Whether the field should always appear. Used in filters (see listView Settings).
 
 * `helpText(string)`
 Define help text to be shown under the field in `editionView` and `creationView`.
+      nga.field('facebookDomainCode')
+        .label('Facebook Domain Code')
+        .helpText('This field is used to configure facebook domain <a href="https://developers.facebook.com/docs/sharing/domain-verification" target="_blank">Click here</a> for more info')
+
+* `helpTooltip(string|object)`
+Define a tooltip icon with a text to be shown next to field in `editionView`, `creationView` and `showView`.
+You can use it as string and object.
+Using as string, it will be placed at `top`.
+Using as object, you can customize `cssClass` and `placement`.
+ - `cssClass`: string - Additional CSS class for your tooltip
+ - `placement`: string - Where your tooltip should be placed based on icon. (top|bottom|left|right)
+
+      nga.field('facebookDomainCode')
+        .label('Facebook Domain Code')
+        .helpTooltip({
+          content: 'This field is used to configure facebook domain',
+          placement: 'right'
+        })
 
 ## `wysiwyg` Field Type
 

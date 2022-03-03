@@ -27,6 +27,7 @@ module.exports = {
     resolve: {
         alias: {
             angular: __dirname + '/node_modules/angular/angular.min.js',
+            'admin-config': __dirname + '/node_modules/admin-config-qikserve',
         },
     },
     plugins: [

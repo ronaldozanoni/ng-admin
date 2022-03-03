@@ -68,6 +68,7 @@ export default function maField(FieldViewConfiguration, $compile) {
 `<div id="row-{{ field.name() }}" class="form-field form-group has-feedback" ng-class="getFieldValidationClass()">
     <label for="{{ field.name() }}" class="col-sm-2 control-label">
         {{ field.label() | translate }}<span ng-if="field.validation().required">&nbsp;*</span>&nbsp;
+        <ma-help-tooltip field="::field"></ma-help-tooltip>
     </label>
     ${fieldTemplate}
 </div>`;
