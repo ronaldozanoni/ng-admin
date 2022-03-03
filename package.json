@@ -1,6 +1,6 @@
 {
-  "name": "ng-admin",
-  "version": "1.0.9",
+  "name": "ng-admin-qikserve",
+  "version": "1.0.9-qikserve-1",
   "license": "MIT",
   "private": false,
   "main": "lib/javascripts/ng-admin.js",

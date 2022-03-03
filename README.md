@@ -1,3 +1,5 @@
+# This repository is a fork of https://github.com/marmelab/ng-admin
+
 ng-admin [![Build Status](https://travis-ci.org/marmelab/ng-admin.svg?branch=master)](https://travis-ci.org/marmelab/ng-admin)
 ========
 
